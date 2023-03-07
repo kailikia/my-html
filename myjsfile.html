@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /** This is where to put the CSS for my page**/
+    </style>
+</head>
+<body>
+    <div class="myclass" id="mystuff">
+    </div>
+    <!-- This is a comment in HTML-->
+    <div class="myclass" id="getdata">
+        <p>This is Javascript</p>
+    </div>
+<script>
+    //This is a JavaScript comment
+    let pie = 22/7;
+    let r = 7;
+    let total = pie * r * r;
+    console.log(total);
+    document.getElementById("mystuff").innerHTML = total;
+    
+    let mytext = document.getElementById("getdata").innerHTML;
+    console.log(mytext);
+</script>
+</body>
+</html>
